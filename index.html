@@ -48,13 +48,13 @@
 			width: 750px;
 			border: solid 2px rgb(0, 34, 94);
 		}
-		.nav-bar {
+		#header-nav {
 			background-color: rgb(0, 34, 94);
 			overflow: hidden;
 			height: 50px;
 		}
 		
-		.nav-bar a {
+		#header-nav a {
 			float: left;
 			font-size: 18px;
 			color: white;
@@ -77,9 +77,11 @@
 </head>
 
 <body>
-	<nav class="nav-bar">
-		<a href="#home">Home</a>
-		<a href="./contact.html" title="contact">Contact</a>
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="container">
+			<a href="#home">Home</a>
+			<a href="./contact.html" title="contact">Contact</a>
+		</div>
 	</nav>
 	<h1 style="color: rgb(0, 34, 94)"> <strong>Wall House</strong></h1>
 	<div class="header">
