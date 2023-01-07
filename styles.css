@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="#home" href="index.html">
+	<link rel="#contact" href="contacts.html">
+	<title>Wall House</title>
+	<style>
+		body {
+			background-color: rgb(259, 251, 252);
+		}
+		h1 {
+			font-size: 50px;
+			font-family: "rockwell";
+			color: white;
+			text-align: right;
+		}
+		.header {
+			background-color: rgb(255, 251, 252);
+			border: 5px ridge rgb(0, 34, 94);
+			height: 500 px;
+		}
+		.header p {
+			font-size: 80 px;
+			color: rgb(0, 34, 94);
+			text-align: center;
+			font-weight: bold;
+		}
+		.announcements {
+			background-color: rgb(255, 251, 252);
+			border: 5px ridge rgb(0, 34, 94);
+			height: 500 px;
+		}
+		.website-body {
+			background-color: rgb(255, 251, 252);
+			margins: auto;
+			border: solid 4px rgb(0, 34, 94);
+			padding: 2px;
+		}
+		#footer {
+			background-color: pink;
+			height: 30 px:
+			bottom: 0px;
+			border: solid 4px rgb(0, 34, 94);
+		}
+		#sorbara-photo {
+			width: 750px;
+			border: solid 2px rgb(0, 34, 94);
+		}
+		#header-nav {
+			background-color: rgb(0, 34, 94);
+			overflow: hidden;
+			height: 100px;
+			float: left;
+			width: 100%;
+		}
+		
+		#header-nav a {
+			font-size: 18px;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+			padding: 14px 16px; 
+			font-weight: bold;
+		}
+		
+		#header-nav a:hover {
+			background-color: pink;
+  			color: black;
+		}
+		
+		#header-nav a.active {
+			background-color: #04AA6D;
+			color: white;
+		}
+	</style>
+</head>
+</html>
